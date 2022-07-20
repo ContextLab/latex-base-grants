@@ -1,0 +1,66 @@
+\documentclass[11pt]{extarticle}
+\usepackage{setspace}
+\usepackage{pxfonts}
+\usepackage{apacite}
+\usepackage{rotating}
+\usepackage[lflt]{floatflt}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{changebar}
+\usepackage{sidecap}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{soul}
+\usepackage{enumitem}
+\usepackage[round, compress]{natbib}
+\usepackage{titlesec}
+\usepackage{hyperref}
+%\linespread{.95}
+
+\geometry{letterpaper,left=1in,right=1in,top=1in,bottom=1in,headsep=0pt,footskip=0pt}
+\fancyhead[L]{\color{Gray} Document title \hfill Author\vspace{0.2cm}}
+\fancyhead[R]{\color{Gray} Document title \hfill Author\vspace{0.2cm}}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\setlength{\parskip}{0.35\baselineskip}
+
+\titlespacing*{\section}{0pt}{0.05\baselineskip}{0.05\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.05\baselineskip}{0.05\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{0.05\baselineskip}{0.05\baselineskip}
+
+\title{Document title}
+\author{Author(s)}
+
+\begin{document}
+\subsection*{Overview}
+Lemon drops dragée wafer jelly lollipop jelly beans danish fruitcake pudding~\citep{Mann21a}. Donut biscuit candy canes carrot cake cheesecake tart candy canes marzipan. Halvah tootsie roll donut toffee marzipan. Liquorice shortbread wafer sugar plum bonbon tiramisu gummies shortbread lemon drops. Dessert biscuit soufflé lemon drops chocolate bar cupcake. Cake cupcake candy gummies powder lemon drops pastry powder cake. Ice cream jujubes dessert toffee croissant toffee. Pastry chupa chups chocolate pudding caramels candy marshmallow chocolate cake gummi bears. Pudding bear claw brownie ice cream toffee. Fruitcake chocolate tart topping jelly beans liquorice. Pudding gummi bears croissant gummies shortbread cupcake icing pastry jelly beans. Gingerbread shortbread tiramisu jujubes oat cake lollipop toffee gingerbread. Cake chocolate bar dessert jujubes donut.
+
+\begin{wrapfigure}[16]{R}{3in}
+    \vspace{-35pt}
+      \begin{center}
+        \includegraphics[width=3in]{figs/trig}
+      \end{center}
+    \vspace{-24pt}
+      \caption{\footnotesize \textbf{Topic trajectories of a video and its memory.}  \textbf{a.} The topic trajectory taken by a 50-minute television episode.  Each dot indicates an event identified using a Hidden Markov Model; the dot colors denote the order of the events (early events are in red; later events are in blue), and the connecting lines indicate the transitions between successive events.  \textbf{b.} The average two-dimensional trajectory captured by 17 participants' recalls of the episode, with the same format and coloring as the trajectory in Panel a. The arrows reflect the directions of the average transitions taken by participants whose trajectories crossed that part of topic space; blue denotes reliable agreement across participants.}
+      \label{fig:trajectories}
+\end{wrapfigure}
+
+Candy canes wafer chocolate sweet roll wafer soufflé chocolate oat cake. Apple pie cheesecake icing donut cake sesame snaps. Caramels chocolate bar topping chocolate bar bear claw donut. Sweet icing marzipan toffee jelly beans caramels jelly beans. Sweet roll gingerbread candy canes toffee muffin tart. Danish sweet roll bear claw biscuit lemon drops toffee soufflé. Cotton candy lollipop tiramisu cheesecake marzipan. Lemon drops shortbread halvah toffee sweet roll shortbread tootsie roll. Gummi bears brownie pastry croissant icing tart. Gummi bears cheesecake fruitcake donut topping jelly marshmallow dessert gummies. Candy chocolate bar powder icing caramels powder shortbread. Topping cupcake sweet roll halvah pie.
+
+Tootsie roll tootsie roll topping candy canes tootsie roll fruitcake gummies. Danish cake muffin bonbon jelly beans donut muffin. Marshmallow bear claw sweet jelly-o ice cream jujubes. Apple pie pudding sweet roll cake danish candy canes liquorice lemon drops. Lemon drops sweet roll tootsie roll sugar plum topping oat cake cotton candy shortbread. Danish chocolate fruitcake toffee tootsie roll tiramisu carrot cake ice cream. Gingerbread chupa chups pudding brownie dragée. Sugar plum lemon drops croissant sweet roll shortbread jelly beans toffee. Shortbread topping cookie biscuit cake. Candy canes gingerbread ice cream gummi bears cake carrot cake sweet caramels fruitcake. Shortbread macaroon lemon drops jelly-o bonbon. Shortbread gingerbread jelly-o tootsie roll lollipop liquorice sugar plum chocolate cake. Jelly beans muffin jelly beans lollipop soufflé dragée candy canes ice cream cupcake.
+
+Gummies candy canes shortbread jelly-o dessert chupa chups bear claw lemon drops. Jelly-o powder tootsie roll biscuit gummies. Cheesecake chocolate macaroon chocolate jelly caramels. Powder candy toffee gingerbread danish cotton candy gummies soufflé. Fruitcake tootsie roll shortbread bear claw candy apple pie sugar plum soufflé. Toffee donut candy canes chocolate bar chocolate. Dragée shortbread sweet chupa chups lollipop. Macaroon jujubes jelly jelly-o gummi bears caramels pudding sweet roll pie. Jelly beans gummies candy tart tootsie roll danish croissant tiramisu cookie. Danish candy canes bear claw icing tart cookie sweet roll lollipop topping. Oat cake sugar plum cake carrot cake marzipan jelly-o sesame snaps. Ice cream soufflé jelly beans sesame snaps jelly beans cake. Apple pie muffin lollipop chocolate sugar plum.
+
+\newpage
+\renewcommand{\refname}{\normalfont\selectfont\normalsize \textbf{References}}
+\bibliography{CDL-bibliography/cdl}
+\bibliographystyle{apacite}
+
+\end{document}
