@@ -7,7 +7,7 @@ This template repository (forked from our [primary LaTeX template repository](ht
 There are two simple ways of using this repository as a template for a new project:
 
 1. Visit the [GitHub page](https://github.com/ContextLab/latex-base) for this project and click the green "Use this template" button.  You will be taken to a new page that enables you to name and configure your new repository.
-2. Create a [new GitHub repository](https://github.com/new) and select "ContextLab/latex-template" from the "Repository template" dropdown menu.  Then name and configure your repository from the same page.
+2. Create a [new GitHub repository](https://github.com/new) and select "ContextLab/latex-base-grants" from the "Repository template" dropdown menu.  Then name and configure your repository from the same page.
 
 # Basic setup
 
