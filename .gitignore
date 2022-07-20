@@ -139,3 +139,6 @@ dmypy.json
 *.fff
 *.synctex.gz
 *.bbl
+*.fdb_latexmk
+*.out
+*.fls

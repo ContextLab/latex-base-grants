@@ -1,8 +1,8 @@
 git submodule init
 git submodule update
 
-cd paper/CDL-bibliography
+cd CDL-bibliography
 git checkout master
 
-cd ../../
+cd ../
 
