@@ -11,7 +11,7 @@ There are two simple ways of using this repository as a template for a new proje
 
 # Basic setup
 
-After cloning your new repository, run the `setup.sh` script** in Terminal:
+After cloning your new repository, run the `setup.sh` script in Terminal:
 ```bash
 sh setup.sh
 ```
